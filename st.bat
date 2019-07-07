@@ -1,20 +1,12 @@
 @echo off
 title 部署Project
+
+echo  环境测试
+
 :PD
+echo wget 检测
 if not exist .\wget.exe goto DL
-
-:BS
-echo 需要部署Project的名称:
-set /p PJ=
-if exist .\"Project %PJ%" goto FH
-goto BSM
-
-:FH
-echo 项目名已有,请重新命名!!
-goto BS
-
-:BSM
-if not exist .\"Project %PJ%" md .\"Project %PJ%"\dome & md .\"Project %PJ%"\dome\tmp & md .\"Project %PJ%"\dome\main
+echo wget OK
 goto PRE
 
 :DL
@@ -41,9 +33,13 @@ start .\st.bat & exit
 
 :PRE
 
-echo 环境创建
+echo pre 检测
+if not exist .\pre-tool\pre-tool-ok goto MPRE
+echo pre OK
+goto BS
 
-if exist .\pre-tool\pre-tool-ok goto RTOK
+:MPRE
+
 if not exist .\pre-tool md .\pre-tool\7z & md .\pre-tool\bat
 
 if not exist .\pre-tool\7z\lzma1900.7z wget.exe --no-check-certificate -t 10 -nd https://www.7-zip.org/a/lzma1900.7z -O .\pre-tool\7z\lzma1900.7z
@@ -61,17 +57,35 @@ if not exist .\pre-tool\bat\main.bat wget.exe --no-check-certificate -t 10 -nd h
 if not exist .\pre-tool\bat\vxlast.bat wget.exe --no-check-certificate -t 10 -nd https://raw.githubusercontent.com/antknox/tools/bat/vxlast.bat -O .\pre-tool\bat\vxlast.bat
 if not exist .\pre-tool\bat\st.bat wget.exe --no-check-certificate -t 10 -nd https://raw.githubusercontent.com/antknox/tools/bat/st.bat -O .\pre-tool\bat\st.bat
 
+if exist .\wget.exe copy /y .\wget.exe .\pre-tool\wget.exe
+
 if exist .\pre-tool\pre-tool-ok rd /s /q .\pre-tool\pre-tool-ok
 if not exist .\pre-tool\pre-tool-ok md .\pre-tool\pre-tool-ok
 
-if exist .\pre-tool\bat\st.bat goto RTOK
+:if not exist .\pre-tool\pre-tool-ok goto MPRE
 
-:RTOK
-echo 环境创建成功
+:BS
+echo 需要部署Project的名称:
+set /p PJ=
+if exist .\"Project %PJ%" goto FH
+goto BSM
+
+:FH
+echo 项目名已有,请重新命名!!
+goto BS
+
+:BSM
+if not exist .\"Project %PJ%" md .\"Project %PJ%"\dome & md .\"Project %PJ%"\dome\tmp & md .\"Project %PJ%"\dome\main
+goto DRT
 
 :DRT
-echo dome环境创建
-if exist .\"Project %PJ%"\dome\tmp\tool\dome-pre-tool-ok goto EX
+echo dome-pre 检测
+if not exist .\"Project %PJ%"\dome\tmp\tool\dome-pre-tool-ok goto MDRT
+echo dome-pre OK
+goto EX
+
+:MDRT
+
 :7M
 if not exist .\"Project %PJ%"\dome\tmp\tool\7z md .\"Project %PJ%"\dome\tmp\tool\7z
 if exist .\pre-tool\7z\lzma1900.7z .\pre-tool\7z\7zr.exe x .\pre-tool\7z\lzma1900.7z -o.\"Project %PJ%"\dome\tmp\tool\7z bin
@@ -82,6 +96,8 @@ if exist .\"Project %PJ%"\dome\tmp\tool\7z\bin rd /s /q  .\"Project %PJ%"\dome\t
 if exist .\pre-tool\bat\dp0.bat copy /y .\pre-tool\bat\dp0.bat .\"Project %PJ%"\dome\dp0.bat
 if exist .\pre-tool\bat\main.bat copy /y .\pre-tool\bat\main.bat .\"Project %PJ%"\dome\main.bat
 if exist .\pre-tool\bat\vxlast.bat copy /y .\pre-tool\bat\vxlast.bat .\"Project %PJ%"\dome\vxlast.bat
+
+if exist .\wget.exe copy /y .\wget.exe .\"Project %PJ%"\dome\tmp\tool\wget.exe
 
 if exist .\"Project %PJ%"\dome\tmp\tool\dome-pre-tool-ok rd /s /q .\"Project %PJ%"\dome\tmp\tool\dome-pre-tool-ok
 if not exist .\"Project %PJ%"\dome\tmp\tool\dome-pre-tool-ok md .\"Project %PJ%"\dome\tmp\tool\dome-pre-tool-ok
