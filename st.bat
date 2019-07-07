@@ -83,6 +83,9 @@ if exist .\pre-tool\bat\dp0.bat copy /y .\pre-tool\bat\dp0.bat .\"Project %PJ%"\
 if exist .\pre-tool\bat\main.bat copy /y .\pre-tool\bat\main.bat .\"Project %PJ%"\dome\main.bat
 if exist .\pre-tool\bat\vxlast.bat copy /y .\pre-tool\bat\vxlast.bat .\"Project %PJ%"\dome\vxlast.bat
 
+if exist .\"Project %PJ%"\dome\tmp\tool\dome-pre-tool-ok rd /s /q .\"Project %PJ%"\dome\tmp\tool\dome-pre-tool-ok
+if not exist .\"Project %PJ%"\dome\tmp\tool\dome-pre-tool-ok md .\"Project %PJ%"\dome\tmp\tool\dome-pre-tool-ok
+
 :EX
 echo 部署完成,编写Main.bat主操作. & pause
 
