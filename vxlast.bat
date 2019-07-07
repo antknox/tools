@@ -1,20 +1,21 @@
 @echo off 
-title ´´½¨°æ±¾²¢·¢²¼µ½last
+title åˆ›å»ºç‰ˆæœ¬å¹¶å‘å¸ƒåˆ°last
 
 :CJ
-echo ÇëÊäÈë°æ±¾ºÅ  (Èç:v1)
+echo è¯·è¾“å…¥ç‰ˆæœ¬å·  (å¦‚:v1)
 set /p BB=
-if exist ..\%BB% echo ÒÑÓĞ%BB%,ÇëÖØĞÂÉèÖÃ & goto CJ
+if exist ..\%BB% echo å·²æœ‰%BB%,è¯·é‡æ–°è®¾ç½® & goto CJ
 
 :BB
 if not exist ..\%BB% md ..\%BB%
 copy /y .\*.* ..\%BB%
 
-exit
+:exit
 
 :last
 if exist ..\last rd /s /q ..\last
 if not exist ..\last md ..\last
 if exist ..\last copy /y .\*.* ..\last
 
-start ..\last\ZM.bat
+cd ..
+start .\last\main.bat
