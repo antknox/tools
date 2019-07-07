@@ -9,6 +9,8 @@ if exist ..\%BB% echo 已有%BB%,请重新设置 & goto CJ
 :BB
 if not exist ..\%BB% md ..\%BB%
 copy /y .\*.* ..\%BB%
+if not exist ..\%BB%\main md ..\%BB%\main
+xcopy /E .\main ..\%BB%\main
 
 :exit
 
@@ -16,6 +18,8 @@ copy /y .\*.* ..\%BB%
 if exist ..\last rd /s /q ..\last
 if not exist ..\last md ..\last
 if exist ..\last copy /y .\*.* ..\last
-
+if not exist ..\last\main md ..\last\main
+xcopy /E .\main ..\last\main
 cd ..
-start .\last\main.bat
+cd last
+start .\main.bat
