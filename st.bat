@@ -76,7 +76,7 @@ if exist .\"Project %PJ%"\dome\tmp\tool\dome-pre-tool-ok goto EX
 if not exist .\"Project %PJ%"\dome\tmp\tool\7z md .\"Project %PJ%"\dome\tmp\tool\7z
 if exist .\pre-tool\7z\lzma1900.7z .\pre-tool\7z\7zr.exe x .\pre-tool\7z\lzma1900.7z -o.\"Project %PJ%"\dome\tmp\tool\7z bin
 if exist .\"Project %PJ%"\dome\tmp\tool\7z\bin move .\"Project %PJ%"\dome\tmp\tool\7z\bin\*.* .\"Project %PJ%"\dome\tmp\tool\7z
-if exist .\"Project %PJ%"\dome\tmp\tool\7z\bin move .\"Project %PJ%"\dome\tmp\tool\7z\bin\x64\7zr.exe ..\"Project %PJ%"\dome\tmp\tool\7z
+if exist .\"Project %PJ%"\dome\tmp\tool\7z\bin copy /y .\"Project %PJ%"\dome\tmp\tool\7z\bin\x64\7zr.exe .\"Project %PJ%"\dome\tmp\tool\7z\7zr-x64.exe
 if exist .\"Project %PJ%"\dome\tmp\tool\7z\bin rd /s /q  .\"Project %PJ%"\dome\tmp\tool\7z\bin
 :BAT
 if exist .\pre-tool\bat\dp0.bat copy /y .\pre-tool\bat\dp0.bat .\"Project %PJ%"\dome\dp0.bat
