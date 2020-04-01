@@ -1,1 +1,1 @@
-
+https://github.com/antknox/tools/raw/wget/x64/wget.exe
