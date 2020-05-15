@@ -52,10 +52,14 @@ liveimg1.happy88.com.wswebcdn.com
 img.happy88.com.wswebcdn.com
 live.happy88.com.wsglb0.com
 happy.happy88.com.wsglb0.com
+hdlws.jhtg.cn.wsdvs.com
 jhtg.cn
 vh.jhtg.cn
 hlsws.jhtg.cn
+hdlws.jhtg.cn
+||jhtg.cn^
 ||hlsws.jhtg.cn^
+||hdlws.jhtg.cn^$important
 */hlsws.jhtg.cn/live/*
 ||sjlive.cn^$important
 ||hlsws.jhtg.cn/live/*_live/playlist.m3u8
