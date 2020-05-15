@@ -58,3 +58,4 @@ hlsws.jhtg.cn
 ||hlsws.jhtg.cn^
 */hlsws.jhtg.cn/live/*
 ||sjlive.cn^$important
+||hlsws.jhtg.cn/live/*_live/playlist.m3u8
