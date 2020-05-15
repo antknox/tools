@@ -54,6 +54,7 @@ live.happy88.com.wsglb0.com
 happy.happy88.com.wsglb0.com
 hdlws.jhtg.cn.wsdvs.com
 jhtg.cn
+*.jhtg.cn
 vh.jhtg.cn
 hlsws.jhtg.cn
 hdlws.jhtg.cn
