@@ -1,16 +1,37 @@
 ! [antknox.com]
-! Title: DNS过滤器
+! Title: block
 ! Version: 202005152344
 ! Expires: 2 days (update frequency)
 ! Homepage: https://antknox.github.io
-
+! url:https://raw.githubusercontent.com/antknox/tools/Adblock-Plus/10.txt
 !-------- ** filter start **------------
+!123
+#范例:
+#||example.org^ – 拦截 example.org 域名及其所有子域名
+#@@||example.org^ – 放行 example.org 及其所有子域名
+#127.0.0.1 example.org – AdGuard Home 现在将会把 example.org（但不包括它的子域名）解析到 127.0.0.1。
+#! 这是一行注释 – 只是一条注释
+## 这也是一行注释 – 只是一条注释
+#/REGEX/ – 阻止访问与example_regex_meaning匹配的域
 !happy88
 ||happy88.com^
 pay.happy88.com
 liveh5.happy88.com
-liveh5.happy88.com/roomend.html?useridx=*
-
+||liveh5.happy88.com/roomend.html?useridx=*
+||liveh5.happy88.com^$replace=/^[\s\S]*/BLOCKED BY ADGUARD/
+||happy88.com^
+||liveh5.happy88.com^
+||liveh5.happy88.com/pay/^
+||https://hykjh5.heemoney.com^
+||happy88.com^$important
+||liveh5.happy88.com^$important
+||img.happy88.com^$important
+||live.happy88.com^$important
+||lo.happy88.com^$important
+||liveimg1.happy88.com^$important
+||tesp.happy88.com^$important
+||happy.happy88.com^$important
+||pay.happy88.com^$important
 liveh5.happy88.com
 live.happy88.com
 esales.happy88.com
@@ -24,9 +45,16 @@ liveimg1.happy88.com
 ts11.happy88.com
 img.happy88.com
 lo.happy88.com
+!other
 hykjh5.heemoney.com
-hlsws.jhtg.cn
-jhtg.cn
-
 hykjh5.heemoney.com/pay/*
+liveimg1.happy88.com.wswebcdn.com
+img.happy88.com.wswebcdn.com
+live.happy88.com.wsglb0.com
+happy.happy88.com.wsglb0.com
+jhtg.cn
+vh.jhtg.cn
+hlsws.jhtg.cn
+||hlsws.jhtg.cn^
 */hlsws.jhtg.cn/live/*
+||sjlive.cn^$important
