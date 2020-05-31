@@ -1,6 +1,6 @@
 ! [antknox.com]
 ! Title: block
-! Version: 202005152344
+! Version: 202005311030
 ! Expires: 2 days (update frequency)
 ! Homepage: https://antknox.github.io
 ! url:https://raw.githubusercontent.com/antknox/tools/Adblock-Plus/10.txt
@@ -15,39 +15,13 @@
 #/REGEX/ – 阻止访问与example_regex_meaning匹配的域
 !happy88
 ||happy88.com^
-pay.happy88.com
-liveh5.happy88.com
-||liveh5.happy88.com/roomend.html?useridx=*
-||liveh5.happy88.com^$replace=/^[\s\S]*/BLOCKED BY ADGUARD/
-||happy88.com^
 ||liveh5.happy88.com^
-||liveh5.happy88.com/pay/^
-||https://hykjh5.heemoney.com^
-||happy88.com^$important
-||liveh5.happy88.com^$important
-||img.happy88.com^$important
-||live.happy88.com^$important
-||lo.happy88.com^$important
-||liveimg1.happy88.com^$important
-||tesp.happy88.com^$important
-||happy.happy88.com^$important
-||pay.happy88.com^$important
-liveh5.happy88.com
-live.happy88.com
-esales.happy88.com
-rtrans.happy88.com
-www.happy88.com
-happy88.com
-m.happy88.com
-happy.happy88.com
 pay.happy88.com
-liveimg1.happy88.com
-ts11.happy88.com
-img.happy88.com
-lo.happy88.com
+liveh5.happy88.com
+||.happy88.
+||liveh5.happy88.
+
 !other
-hykjh5.heemoney.com
-hykjh5.heemoney.com/pay/*
 liveimg1.happy88.com.wswebcdn.com
 img.happy88.com.wswebcdn.com
 live.happy88.com.wsglb0.com
@@ -60,7 +34,7 @@ hlsws.jhtg.cn
 hdlws.jhtg.cn
 ||jhtg.cn^
 ||hlsws.jhtg.cn^
-||hdlws.jhtg.cn^$important
+||hdlws.jhtg.cn^
 */hlsws.jhtg.cn/live/*
-||sjlive.cn^$important
+||sjlive.cn^
 ||hlsws.jhtg.cn/live/*_live/playlist.m3u8
