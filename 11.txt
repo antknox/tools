@@ -22,10 +22,11 @@
 104.25.62.106 share.dmhy.org
 104.25.61.106 dl.dmhy.org
 104.25.62.106 dl.dmhy.org
-140.82.118.4 github.com
-192.30.255.112 github.com
-151.101.184.133 raw.githubusercontent.com
-52.95.159.0 s3.amazonaws.com
-52.219.4.84 s3.amazonaws.com
+#140.82.118.4 github.com
+#192.30.255.112 github.com
+#151.101.184.133 raw.githubusercontent.com
+#52.95.159.0 s3.amazonaws.com
+#52.219.4.84 s3.amazonaws.com
 #block
 127.0.0.1 pay.happy88.com
+127.0.0.1 hykjh5.heemoney.com

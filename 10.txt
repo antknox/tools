@@ -16,7 +16,7 @@
 !happy88
 ||happy88.com^
 ||liveh5.happy88.com^
-
+liveh5.happy88.com/pay
 !other
 liveimg1.happy88.com.wswebcdn.com
 img.happy88.com.wswebcdn.com
