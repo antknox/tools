@@ -28,4 +28,4 @@
 52.95.159.0 s3.amazonaws.com
 52.219.4.84 s3.amazonaws.com
 #block
-127.0.01 pay.happy88.com
+127.0.0.1 pay.happy88.com
