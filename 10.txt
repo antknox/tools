@@ -16,10 +16,6 @@
 !happy88
 ||happy88.com^
 ||liveh5.happy88.com^
-pay.happy88.com
-liveh5.happy88.com
-||.happy88.
-||liveh5.happy88.
 
 !other
 liveimg1.happy88.com.wswebcdn.com
@@ -27,11 +23,7 @@ img.happy88.com.wswebcdn.com
 live.happy88.com.wsglb0.com
 happy.happy88.com.wsglb0.com
 hdlws.jhtg.cn.wsdvs.com
-jhtg.cn
 *.jhtg.cn
-vh.jhtg.cn
-hlsws.jhtg.cn
-hdlws.jhtg.cn
 ||jhtg.cn^
 ||hlsws.jhtg.cn^
 ||hdlws.jhtg.cn^
