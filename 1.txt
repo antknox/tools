@@ -1,25 +1,39 @@
-#hosts
-#lan
+###hosts
+##lan
 192.168.11.1 xm3.cc
-192.168.11.207 y7000p.antknox.com tv.com
-192.168.11.115 y7000p.antknox.com tv.com
-192.168.11.207 music.163.com interface.music.163.com music.ntes53.netease.com
-192.168.11.115 music.163.com interface.music.163.com music.ntes53.netease.com
-#wan
+192.168.11.207 y7000p.antknox.com
+192.168.11.207 tv.com
+192.168.11.115 y7000p.antknox.com
+192.168.11.115 tv.com
+192.168.11.207 music.163.com
+192.168.11.207 interface.music.163.com
+192.168.11.207 music.ntes53.netease.com
+192.168.11.115 music.163.com
+192.168.11.115 interface.music.163.com
+192.168.11.115 music.ntes53.netease.com
+##wan
 222.199.191.35 p1.music.126.net
 222.199.191.35 p3.music.126.net
 222.199.191.35 p4.music.126.net
 222.199.191.35 m10.music.126.net
-104.25.61.106 share.dmhy.org dl.dmhy.org
-104.25.62.106 share.dmhy.org dl.dmhy.org
-2606:4700:20::6819:3e6a share.dmhy.org dl.dmhy.org
-2606:4700:20::ac43:620f share.dmhy.org dl.dmhy.org
+104.25.61.106 share.dmhy.org
+104.25.61.106 dl.dmhy.org
+104.25.62.106 share.dmhy.org
+104.25.62.106 dl.dmhy.org
+2606:4700:20::6819:3e6a share.dmhy.org
+2606:4700:20::6819:3e6a dl.dmhy.org
+2606:4700:20::ac43:620f share.dmhy.org
+2606:4700:20::ac43:620f dl.dmhy.org
 151.101.192.133 raw.githubusercontent.com
 104.27.130.127 nyaa.net sukebei.nyaa.net
 1.1.1.1 open.lilithraws.cf
 104.22.64.159 s3.picacomic.com
 #pcbeta
-36.27.212.81 pcbeta.com cdn.pcbeta.static.inimc.com cdn.pcbeta.css.inimc.com cdn.pcbeta.attachment.inimc.com cdn.pcbeta.img.inimc.com
+36.27.212.81 pcbeta.com
+36.27.212.81 cdn.pcbeta.static.inimc.com
+36.27.212.81 cdn.pcbeta.css.inimc.com
+36.27.212.81 cdn.pcbeta.attachment.inimc.com
+36.27.212.81 cdn.pcbeta.img.inimc.com
 #163sub
 172.67.152.214 163sub.com
 104.28.17.206 163sub.com
@@ -27,7 +41,7 @@
 #themoviedb
 13.224.161.90 api.themoviedb.org
 #ad
-#intarnet
+##intarnet
 #techsmith
 0.0.0.0 activation.cloud.techsmith.com
 0.0.0.0 oscount.techsmith.com
