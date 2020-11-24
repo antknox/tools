@@ -1,0 +1,34 @@
+#AD
+#block
+#happy88
+#127.0.0.1 pay.happy88.com
+#127.0.0.1 rtrans.happy88.com
+#127.0.0.1 liveh5.happy88.com
+#127.0.0.1 live.happy88.com
+#127.0.0.1 hlsws.jhtg.cn
+#127.0.0.1 hlsws.jhtg.cn.wsdvs.com
+#127.0.0.1 jhtg.cn
+#127.0.0.1 gshk.happy-host.com
+#127.0.0.1 hykjh5.heemoney.com
+#::1 pay.happy88.com
+#::1 rtrans.happy88.com
+#::1 liveh5.happy88.com
+#::1 live.happy88.com
+#::1 hlsws.jhtg.cn
+#::1 hlsws.jhtg.cn.wsdvs.com
+#::1 jhtg.cn
+#::1 gshk.happy-host.com
+#::1 hykjh5.heemoney.com
+
+#techsmith
+0.0.0.0 activation.cloud.techsmith.com
+0.0.0.0 oscount.techsmith.com
+#bandicam
+0.0.0.0 bandicam.com
+0.0.0.0 ssl.bandicam.com
+0.0.0.0 ssl.bandisoft.com
+0.0.0.0 cert.bandicam.com
+0.0.0.0 www.bandicam.com
+#cclear
+0.0.0.0 license.piriform.com
+

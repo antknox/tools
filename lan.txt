@@ -1,0 +1,8 @@
+##lan
+192.168.31.1 miwifi.com
+192.168.31.206 y7000p.antknox.com
+192.168.31.206 tv.com
+192.168.31.115 y7000p.antknox.com
+192.168.31.115 tv.com
+192.168.31.116 y450.antknox.com
+192.168.31.209 mi8.antknox.com
