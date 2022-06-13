@@ -10,18 +10,24 @@
 222.199.191.35 p3.music.126.net
 222.199.191.35 p4.music.126.net
 222.199.191.35 m10.music.126.net
-#dmhy
+#dmhy.org
+#dmhyip share.dmhy.org
+#dmhyip dl.dmhy.org
+#104.25.61.106
+#104.25.62.106
+#172.67.98.15
 104.25.61.106 share.dmhy.org
 104.25.61.106 dl.dmhy.org
-104.25.62.106 share.dmhy.org
-104.25.62.106 dl.dmhy.org
 2606:4700:20::6819:3e6a share.dmhy.org
 2606:4700:20::6819:3e6a dl.dmhy.org
 2606:4700:20::ac43:620f share.dmhy.org
 2606:4700:20::ac43:620f dl.dmhy.org
 #bangumi.moe
-172.64.175.14 bangumi.moe
+#bangumiip bangumi.moe
+#172.64.174.14
+#172.64.175.14
 172.64.174.14 bangumi.moe
+172.64.175.14 bangumi.moe
 #acgnx
 104.26.0.5 share.acgnx.se
 104.26.1.5 share.acgnx.se
@@ -43,8 +49,30 @@
 #151.101.108.133 githubusercontent.com
 #151.101.108.133 user-images.githubusercontent.com
 #151.101.108.133 camo.githubusercontent.com
+#github.com
+#githubip github.com
+#githubip api.github.com
+#githubip githubusercontent.com
+#githubip raw.githubusercontent.com
+#githubip user-images.githubusercontent.com
+#githubip camo.githubusercontent.com
+#13.209.163.61
+#52.69.239.207
+52.69.239.207 github.com
+52.69.239.207 api.github.com
+52.69.239.207 githubusercontent.com
+52.69.239.207 raw.githubusercontent.com
+52.69.239.207 user-images.githubusercontent.com
+52.69.239.207 camo.githubusercontent.com
+#picacomic.com
+#picacomicip picacomic.com
+#picacomicip pic.picacomic.com
+#picacomicip s3.picacomic.com
+#104.22.64.159
+104.22.64.159 picacomic.com
+104.22.64.159 pic.picacomic.com
+104.22.64.159 s3.picacomic.com
 #other
 13.224.161.90 api.themoviedb.org
 104.27.130.127 nyaa.net sukebei.nyaa.net
 1.1.1.1 open.lilithraws.cf
-104.22.64.159 s3.picacomic.com
