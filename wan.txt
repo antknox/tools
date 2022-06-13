@@ -58,12 +58,6 @@
 #githubip camo.githubusercontent.com
 #13.209.163.61
 #52.69.239.207
-52.69.239.207 github.com
-52.69.239.207 api.github.com
-52.69.239.207 githubusercontent.com
-52.69.239.207 raw.githubusercontent.com
-52.69.239.207 user-images.githubusercontent.com
-52.69.239.207 camo.githubusercontent.com
 #picacomic.com
 #picacomicip picacomic.com
 #picacomicip pic.picacomic.com
