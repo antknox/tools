@@ -19,6 +19,9 @@
 2606:4700:20::6819:3e6a dl.dmhy.org
 2606:4700:20::ac43:620f share.dmhy.org
 2606:4700:20::ac43:620f dl.dmhy.org
+#bangumi.moe
+172.64.175.14 bangumi.moe
+172.64.174.14 bangumi.moe
 #acgnx
 104.26.0.5 share.acgnx.se
 104.26.1.5 share.acgnx.se
