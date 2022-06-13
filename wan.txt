@@ -1,11 +1,11 @@
 ##wan
 #163music
-192.168.31.206 music.163.com
-192.168.31.206 interface.music.163.com
-192.168.31.206 music.ntes53.netease.com
-192.168.31.115 music.163.com
-192.168.31.115 interface.music.163.com
-192.168.31.115 music.ntes53.netease.com
+#192.168.31.206 music.163.com
+#192.168.31.206 interface.music.163.com
+#192.168.31.206 music.ntes53.netease.com
+#192.168.31.115 music.163.com
+#192.168.31.115 interface.music.163.com
+#192.168.31.115 music.ntes53.netease.com
 222.199.191.35 p1.music.126.net
 222.199.191.35 p3.music.126.net
 222.199.191.35 p4.music.126.net
@@ -36,10 +36,10 @@
 #themoviedb
 13.224.161.90 api.themoviedb.org
 #github
-151.101.108.133 raw.githubusercontent.com
-151.101.108.133 githubusercontent.com
-151.101.108.133 user-images.githubusercontent.com
-151.101.108.133 camo.githubusercontent.com
+#151.101.108.133 raw.githubusercontent.com
+#151.101.108.133 githubusercontent.com
+#151.101.108.133 user-images.githubusercontent.com
+#151.101.108.133 camo.githubusercontent.com
 #other
 13.224.161.90 api.themoviedb.org
 104.27.130.127 nyaa.net sukebei.nyaa.net
