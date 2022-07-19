@@ -81,7 +81,7 @@
 #other
 #13.224.161.90 api.themoviedb.org
 1.1.1.1 open.lilithraws.cf
-1.1.1.1 nekomoe.pages.dev
+#1.1.1.1 nekomoe.pages.dev
 172.66.44.167 nekomoe.pages.dev
 #172.66.44.89 nekomoe.pages.dev
 #nyaa.net
