@@ -72,12 +72,14 @@
 #picacomicip picacomic.com
 #picacomicip pic.picacomic.com
 #picacomicip s3.picacomic.com
+#picacomicip img.picacomic.com
 #104.22.64.159
 #104.22.65.159
 #172.67.7.24
 104.22.64.159 picacomic.com
 104.22.64.159 pic.picacomic.com
 104.22.64.159 s3.picacomic.com
+104.22.64.159 img.picacomic.com
 #other
 #13.224.161.90 api.themoviedb.org
 1.1.1.1 open.lilithraws.cf
