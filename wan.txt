@@ -1,59 +1,10 @@
-##wan
-#163music
-#192.168.31.206 music.163.com
-#192.168.31.206 interface.music.163.com
-#192.168.31.206 music.ntes53.netease.com
-#192.168.31.115 music.163.com
-#192.168.31.115 interface.music.163.com
-#192.168.31.115 music.ntes53.netease.com
-222.199.191.35 p1.music.126.net
-222.199.191.35 p3.music.126.net
-222.199.191.35 p4.music.126.net
-222.199.191.35 m10.music.126.net
-#dmhy.org
-#dmhyip share.dmhy.org
-#dmhyip dl.dmhy.org
-#104.25.61.106
-#104.25.62.106
-#172.67.98.15
-104.25.61.106 share.dmhy.org
-104.25.61.106 dl.dmhy.org
-#2606:4700:20::6819:3e6a share.dmhy.org
-#2606:4700:20::6819:3e6a dl.dmhy.org
-#2606:4700:20::ac43:620f share.dmhy.org
-#2606:4700:20::ac43:620f dl.dmhy.org
 #bangumi.moe
-#bangumiip bangumi.moe
-#172.64.174.14
-#172.64.175.14
-#172.64.110.17
-#172.64.111.17
-172.64.110.17 bangumi.moe
-#acgnx
-#104.26.0.5
-#104.26.1.5
-#172.67.72.57
-104.26.0.5 share.acgnx.se
-#pcbeta
-36.27.212.81 pcbeta.com
-36.27.212.81 cdn.pcbeta.static.inimc.com
-36.27.212.81 cdn.pcbeta.css.inimc.com
-36.27.212.81 cdn.pcbeta.attachment.inimc.com
-36.27.212.81 cdn.pcbeta.img.inimc.com
-#163sub
-#172.67.152.214 163sub.com
-#104.28.17.206 163sub.com
-#104.28.16.206 163sub.com
-#themoviedb
-#13.224.167.10
-#13.224.167.16
-#13.224.167.74
-#13.224.167.108
-#18.67.65.57
-#18.67.65.67
-#18.67.65.22
-#18.67.65.48
-18.67.65.57 api.themoviedb.org
+172.67.152.186  bangumi.moe
+104.21.56.146   bangumi.moe
+#108.160.162.102	bangumi.moe
+
+
+#github
 #github
 #151.101.108.133 raw.githubusercontent.com
 #151.101.108.133 githubusercontent.com
@@ -66,6 +17,73 @@
 #githubip raw.githubusercontent.com
 #githubip user-images.githubusercontent.com
 #githubip camo.githubusercontent.com
+
+#185.199.108.133 raw.githubusercontent.com
+#185.199.109.133 raw.githubusercontent.com
+#185.199.110.133 raw.githubusercontent.com
+#185.199.111.133 raw.githubusercontent.com
+
+#185.199.108.133 user-images.githubusercontent.com
+#185.199.109.133 user-images.githubusercontent.com
+#185.199.110.133 user-images.githubusercontent.com
+#185.199.111.133 user-images.githubusercontent.com
+
+#share.dmhy.org
+104.25.62.106   share.dmhy.org
+104.25.62.106   dl.dmhy.org
+172.67.98.15   share.dmhy.org
+172.67.98.15   dl.dmhy.org
+104.25.61.106   share.dmhy.org
+104.25.61.106   dl.dmhy.org
+
+2606:4700:20::6819:3e6a share.dmhy.org
+2606:4700:20::6819:3e6a dl.dmhy.org
+2606:4700:20::ac43:620f share.dmhy.org
+2606:4700:20::ac43:620f dl.dmhy.org
+
+##wan
+#163music
+#192.168.31.206 music.163.com
+#192.168.31.206 interface.music.163.com
+#192.168.31.206 music.ntes53.netease.com
+#192.168.31.115 music.163.com
+#192.168.31.115 interface.music.163.com
+#192.168.31.115 music.ntes53.netease.com
+222.199.191.35 p1.music.126.net
+222.199.191.35 p3.music.126.net
+222.199.191.35 p4.music.126.net
+222.199.191.35 m10.music.126.net
+
+#acgnx
+#104.26.0.5
+#104.26.1.5
+#172.67.72.57
+104.26.0.5 share.acgnx.se
+
+#pcbeta
+36.27.212.81 pcbeta.com
+36.27.212.81 cdn.pcbeta.static.inimc.com
+36.27.212.81 cdn.pcbeta.css.inimc.com
+36.27.212.81 cdn.pcbeta.attachment.inimc.com
+36.27.212.81 cdn.pcbeta.img.inimc.com
+
+#163sub
+#172.67.152.214 163sub.com
+#104.28.17.206 163sub.com
+#104.28.16.206 163sub.com
+
+#themoviedb
+#13.224.167.10
+#13.224.167.16
+#13.224.167.74
+#13.224.167.108
+#18.67.65.57
+#18.67.65.67
+#18.67.65.22
+#18.67.65.48
+18.67.65.57 api.themoviedb.org
+
+
 #13.209.163.61
 #52.69.239.207
 #picacomic.com
@@ -80,16 +98,25 @@
 104.22.64.159 pic.picacomic.com
 104.22.64.159 s3.picacomic.com
 104.22.64.159 img.picacomic.com
+
 #other
 #13.224.161.90 api.themoviedb.org
 1.1.1.1 open.lilithraws.cf
 #1.1.1.1 nekomoe.pages.dev
 172.66.44.167 nekomoe.pages.dev
 #172.66.44.89 nekomoe.pages.dev
+
 #nyaa.net
 #104.21.94.5
 #172.67.217.203
 #104.21.94.5
 104.21.94.5 nyaa.net
 104.21.94.5 sukebei.nyaa.net
+
+146.75.120.193  i.imgur.com
+
+104.20.9.218    v2ex.com
+104.20.10.218   v2ex.com
+172.67.3.188    v2ex.com
+
 
